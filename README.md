@@ -1,4 +1,4 @@
-# ボーカル自動切り分け（vocal_splitter）
+# Zinrikirin（ボーカル自動切り分け）
 
 ボーカル音源を、無音・ブレス候補・歌詞の行に合わせて自動で区間に切り分ける Windows 向け GUI ツールです。
 歌詞の時刻合わせに faster-whisper、または Qwen3-ASR（任意）を使います。

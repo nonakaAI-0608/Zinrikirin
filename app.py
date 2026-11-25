@@ -30,7 +30,7 @@ from lyrics import LyricsDocument, read_lyrics_file
 class App(TkinterDnD.Tk):
     def __init__(self):
         super().__init__()
-        self.title('ボーカル自動切り分け v0.2.0'); self.geometry('1200x880'); self.minsize(1050,750)
+        self.title('Zinrikirin v0.2.0'); self.geometry('1200x880'); self.minsize(1050,750)
         self.audio=None; self.rate=0; self.path=None; self.subtype='PCM_16'; self.clips=[]
         self.events=queue.Queue(); self.busy=False; self.cursor=0.; self.recognizer=Recognizer(Path(__file__).parent)
         self.history=History(); self.zoom=1.; self.view_start=0.
