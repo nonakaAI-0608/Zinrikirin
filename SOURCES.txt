@@ -1,0 +1,11 @@
+Qwen3-ASR-1.7B official Transformers checkpoint and usage:
+https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf
+https://huggingface.co/docs/transformers/model_doc/qwen3_asr
+Original Qwen model and singing-voice support:
+https://huggingface.co/Qwen/Qwen3-ASR-1.7B
+PyTorch 2.6 Windows CUDA 12.4 / CPU packages:
+https://pytorch.org/get-started/previous-versions/
+
+Qwen3-ASR model weights: Apache-2.0; downloaded from the official repository on first use.
+No model weights are included in this ZIP.
+Breath detection is a custom signal-feature heuristic, not a trained breath-detection model.

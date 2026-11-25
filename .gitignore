@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# ログ・一時ファイル
+*.log
+*.tmp
+
+# モデル（Hugging Face キャッシュ、数GB）
+models/
+
+# 個人の読み辞書（初回はアプリ内の既定値を使います）
+reading_dictionary.json

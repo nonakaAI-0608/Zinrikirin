@@ -1,0 +1,5 @@
+transformers==5.13.1
+accelerate>=1.2,<2
+librosa>=0.11,<0.12
+soundfile>=0.12,<1
+nagisa>=0.2.11
